@@ -179,26 +179,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-@media (max-width: 576px) {
-    nav ul li {
-        display: none;
-    }
-}
-
-.urna {
-    width: 450px;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.tela {
-    width: 286px;
-    height: 300px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    grid-gap: 30px;
-    padding-top: 40px;
-}
