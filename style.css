@@ -179,3 +179,43 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    .urna {
+        width: 340px;
+        height: 570px;
+        display: flex;
+        margin: 0px;
+        padding: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .teclado {
+        width: 300px;
+        height: 300px;
+        margin: 0px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .teclado--botao {
+        margin: 5px;
+    }
+
+    .tela {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .teclado--linha {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+    }
+}
